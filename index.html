@@ -179,7 +179,7 @@ window.MathJax = {
 To generate that exact image using generative models, she guides the model with multiple rounds of prompting and arrives at an image $x^{p*}$.
 Although $x^{p*}$ is reasonably close to $x^*$, a gap remains between them  and Alice finds it difficult to close that gap using language prompts.
 This paper aims to narrow this gap by observing that even though language has its limits, Alice might be able to tell when a new image $x^+$ is closer to $x^*$ than $x^{p*}$. 
-Leveraging this observation, we develop {\name} (Multi-Choice Preferential Bayesian Optimization) that carefully generates $N$ new images as a function of $x^{p*}$, gets preferential feedback from the user, uses the feedback to guide the diffusion model, and ultimately generates a new set of $N$ images.
+Leveraging this observation, we develop <b>MultiBO</b> (Multi-Choice Preferential Bayesian Optimization) that carefully generates $N$ new images as a function of $x^{p*}$, gets preferential feedback from the user, uses the feedback to guide the diffusion model, and ultimately generates a new set of $N$ images.
 We show that after several rounds of user feedback, it is possible to arrive much closer to $x^*$, even though the generative model has no information about $x^*$.
 Qualitative scores from $25+$ users, combined with quantitative metrics  compared across $6$ different baselines, show promising results, suggesting that even weak feedback signals from humans can go a long way towards personalized image generation.>
     </div>
@@ -285,7 +285,7 @@ Qualitative scores from $25+$ users, combined with quantitative metrics  compare
 
 <section>
   <p>
-    <strong>{name}</strong> contributes by observing that multi-choice preference
+    <strong>MultiBO</strong> contributes by observing that multi-choice preference
     queries give far richer information to the optimization, and shows that such
     \( K \)-out-of-\( N \) feedback can be mathematically accommodated by updating
     the likelihood model and the acquisition function in the GPR framework.
@@ -293,7 +293,7 @@ Qualitative scores from $25+$ users, combined with quantitative metrics  compare
 
   <p>
     Moreover, building on the empirical success of recent work,
-    <strong>{name}</strong> proposes performing the optimization in a
+    <strong>MultiBO</strong> proposes performing the optimization in a
     low-dimensional transformation space, where the transformations are applied
     to the \( \langle K, Q, V \rangle \) matrices in the attention layer of a
     diffusion model.
@@ -302,7 +302,7 @@ Qualitative scores from $25+$ users, combined with quantitative metrics  compare
   </p>
 
   <p>
-    In sum, <strong>{name}</strong> utilizes multi-choice user feedback to alter
+    In sum, <strong>MultiBO</strong> utilizes multi-choice user feedback to alter
     image-patch representations inside the attention layer, with the goal of
     moving the denoised image \( D_\theta(x_t^j) \) closer to \( x^* \).
   </p>
