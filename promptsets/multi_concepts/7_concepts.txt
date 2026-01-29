@@ -1,0 +1,24 @@
+{
+  "7_concepts": [
+  "A dog with a cat, a horse, a cow, a sheep, a rabbit, and a chicken.",
+  "A lion, a zebra, an elephant, a giraffe, a bear, a monkey, and a person in a garden.",
+  "A bird, a chicken, a duck, a mouse, a dog, a rabbit, and a cat.",
+  "A dog, a laptop, a notebook, a pen, a cup, a plate, and a fork.",
+  "A cat, a backpack, a spoon, a fork, a knife, a bread, and a cheese.",
+  "A horse with a pizza, a carrot, an apple, a sandwich, a donut, and a cake.",
+  "A chair, a bottle, a bowl, a spoon, a cup, a plate, and a knife.",
+  "A bed, a pillow, a blanket, a teddy bear, a book, a rug, and a lamp.",
+  "A tie, a glove, a scarf, a hat, a jacket, a belt, and a shoe.",
+  "A skateboard, a helmet, a ball, a frisbee, a kite, a bicycle, and a snowboard.",
+  "A car, a truck, a boat, an airplane, a train, a motorcycle, and a bus.",
+  "A sandwich, a pizza, a donut, a cake, an apple, a banana, and a carrot.",
+  "A microwave, an oven, a toaster, a refrigerator, a sink, a cup, and a bottle.",
+  "A couch, a lamp, a clock, a vase, a chair, a bed, and a table.",
+  "A baseball bat, a glove, a baseball, a sports ball, a helmet, a frisbee, and a kite.",
+  "A person, a dog, a cat, a rabbit, a horse, a cow, and a sheep in a park.",
+  "A bird, a chicken, a duck, a mouse, a rabbit, a dog, and a cat.",
+  "A paper, a pen, a notebook, a marker, a whiteboard, a sandwich bag, and a plate.",
+  "A bottle, a cup, a bowl, a plate, a bread, a cheese, and a knife.",
+  "A shoe, a hat, a scarf, a glove, a jacket, a belt, and a backpack."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+"multi_object_chatgpt":[
+    "a red bicycle leaning against a wooden fence beside a tall lamp post and a sleeping dog.",
+    "a golden crown resting on a marble table with a silver goblet, an open book, and a broken sword.",
+    "a blue parrot sitting on a branch above a monkey, a snake, and a crocodile in the jungle.",
+    "a train passing a bridge with a river below, mountains in the distance, and a lighthouse on the shore.",
+    "a wizard holding a staff next to a dragon, a castle gate, a knight in armor, and a black horse.",
+    "a picnic scene with a wicker basket, a loaf of bread, a bottle of wine, a blanket, and sunflowers.",
+    "a futuristic city with flying cars, glass towers, neon signs, a crowded street market, and a monorail.",
+    "an astronaut planting a flag near a rover, with a satellite dish, a crater, and Earth in the sky.",
+    "a farmer with a tractor in a wheat field beside a barn, a scarecrow, and a windmill.",
+    "a pirate ship with torn sails, a treasure chest, a parrot on the mast, cannons, and a skull flag."
+]
+}

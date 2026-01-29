@@ -1,0 +1,19 @@
+{
+"objects": [
+        "a pink crown and a purple bow",
+        "a blue clock and a blue apple",
+        "a blue balloon and a orange bench",
+        "a pink crown and a red chair",
+        "a orange chair and a blue clock",
+        "a purple bowl and a black bench",
+        "a green glasses and a black crown",
+        "a purple chair and a red bow",
+        "a yellow glasses and a black car",
+        "a orange backpack and a purple car",
+        "a white balloon and a white apple",
+        "a brown suitcase and a black clock",
+        "a yellow backpack and a purple chair",
+        "a gray backpack and a green clock",
+        "a blue crown and a red balloon"
+        ]
+}

@@ -1,0 +1,22 @@
+{
+    "rejected": [
+        {
+            "prompt": "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin",
+            "error": "list index out of range"
+        }
+    ],
+    "statistics": {
+        "total": 40,
+        "accepted": 37,
+        "rejected": 3,
+        "acceptance_rate": "92.5%"
+    }
+}

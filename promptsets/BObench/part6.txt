@@ -1,0 +1,34 @@
+{
+    "part6": [
+        {
+            "prompt": "A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
+            "edit_seed": 195730,
+            "target_seed": 1673849,
+            "dataset": "paintings"
+        },
+        {
+            "prompt": "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
+            "edit_seed": 701469,
+            "target_seed": 114490,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
+            "edit_seed": 701469,
+            "target_seed": 844666,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "A black and white photo of a steam of flowers inside a vase.",
+            "edit_seed": 405852,
+            "target_seed": 706219,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A black and white photo of a steam of flowers inside a vase.",
+            "edit_seed": 405852,
+            "target_seed": 830509,
+            "dataset": "photo"
+        }
+    ]
+}

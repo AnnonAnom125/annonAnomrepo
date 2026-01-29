@@ -1,0 +1,16 @@
+{
+"objects": [
+    "a rose with a blue flower and a yellow stem",
+    "a bow with a green knot and pink ribbons",
+    "a clock with a brown dial and blue hands",
+    "a lollipop with a blue candy and a yellow stick",
+    "a mushroom with a purple cap and an orange stem",
+    "a rose with a pink flower and an orange stem",
+    "an umbrella with a red canopy and a green handle",
+    "a cake with a pink base and blue candles",
+    "an umbrella with a blue canopy and a pink handle",
+    "a leaf with blue foliage and pink veins",
+    "an apple with a red stem and blue flesh",
+    "a sunflower has an orange flower and a purple stem"
+    ]
+}

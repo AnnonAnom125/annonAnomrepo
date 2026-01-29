@@ -1,0 +1,9 @@
+{
+"animals_objects": [
+        "a horse with a glasses",
+        "a bear with a glasses",
+        "a monkey and a red car",
+        "a elephant with a bow",
+        "a frog and a purple balloon"
+        ]
+}

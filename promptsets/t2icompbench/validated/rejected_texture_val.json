@@ -1,0 +1,14 @@
+{
+    "rejected": [
+        {
+            "prompt": "The wooden birdhouse and fluffy bird perch on the metallic pole by the glass window.",
+            "error": "list index out of range"
+        }
+    ],
+    "statistics": {
+        "total": 300,
+        "accepted": 299,
+        "rejected": 1,
+        "acceptance_rate": "99.7%"
+    }
+}

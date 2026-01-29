@@ -1,0 +1,9 @@
+{
+    "animals_reverse": [
+        "a rabbit and a elephant",
+        "a frog and a dog",
+        "a mouse and a bird",
+        "a frog and a monkey",
+        "a monkey and a horse"
+    ]
+}

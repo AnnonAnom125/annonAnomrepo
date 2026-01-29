@@ -1,0 +1,34 @@
+{
+    "part1": [
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 340839,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 47038,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 653050,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "A cyberpunk woman on a motorbike drives away down a street while wearing sunglasses.",
+            "edit_seed": 854347,
+            "target_seed": 566806,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A cyberpunk woman on a motorbike drives away down a street while wearing sunglasses.",
+            "edit_seed": 116982,
+            "target_seed": 566806,
+            "dataset": "concept-art"
+        }
+    ]
+}

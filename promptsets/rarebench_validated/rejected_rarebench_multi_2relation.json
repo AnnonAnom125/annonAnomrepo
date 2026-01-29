@@ -1,0 +1,22 @@
+{
+    "rejected": [
+        {
+            "prompt": "A hairy frog is sitting on top of a spotted lizard",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "A zebra striped rock is balancing on top of a dancing bulldog",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake",
+            "error": "list index out of range"
+        }
+    ],
+    "statistics": {
+        "total": 40,
+        "accepted": 37,
+        "rejected": 3,
+        "acceptance_rate": "92.5%"
+    }
+}

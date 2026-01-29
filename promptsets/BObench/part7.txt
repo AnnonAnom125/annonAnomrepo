@@ -1,0 +1,34 @@
+{
+    "part7": [
+        {
+            "prompt": "An airplane on the runway of an airport.",
+            "edit_seed": 706219,
+            "target_seed": 798074,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A girl is holding a large kite on a grassy field.",
+            "edit_seed": 830509,
+            "target_seed": 798074,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A flower patterned otter is playing with a butterfly shaped bowl",
+            "edit_seed": 722798,
+            "target_seed": 8475638,
+            "dataset": "rarebench_multi_2relation"
+        },
+        {
+            "prompt": "red and yellow balloons hanging from a ceiling fan",
+            "edit_seed": 334750,
+            "target_seed": 661720,
+            "dataset": "partiprompts"
+        },
+        {
+            "prompt": "a tidal wave approaching a coastal road",
+            "edit_seed": 8008,
+            "target_seed": 200,
+            "dataset": "partiprompts"
+        }
+    ]
+}

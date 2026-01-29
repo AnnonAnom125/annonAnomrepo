@@ -1,0 +1,19 @@
+{
+"animals_objects": [
+        "a horse with a glasses",
+        "a bear with a glasses",
+        "a monkey and a red car",
+        "a elephant with a bow",
+        "a frog and a purple balloon",
+        "a mouse with a bow",
+        "a bird with a crown",
+        "a turtle and a yellow bowl",
+        "a rabbit and a gray chair",
+        "a dog and a black apple",
+        "a rabbit and a white bench",
+        "a lion and a yellow clock",
+        "a turtle and a gray backpack",
+        "a elephant and a green balloon",
+        "a monkey and a orange apple"
+        ]
+}

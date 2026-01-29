@@ -1,0 +1,19 @@
+{
+    "animals": [
+        "a elephant and a rabbit",
+        "a dog and a frog",
+        "a bird and a mouse",
+        "a monkey and a frog",
+        "a horse and a monkey",
+        "a bird and a turtle",
+        "a bird and a lion",
+        "a lion and a monkey",
+        "a horse and a turtle",
+        "a bird and a monkey",
+        "a bear and a frog",
+        "a bear and a turtle",
+        "a dog and a elephant",
+        "a dog and a horse",
+        "a turtle and a mouse"
+    ]
+}

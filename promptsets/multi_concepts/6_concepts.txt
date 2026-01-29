@@ -1,0 +1,24 @@
+{
+  "6_concepts": [
+  "A dog with a cat, a horse, a cow, a sheep, and a rabbit.",
+  "A lion, a zebra, an elephant, a giraffe, a bear, and a monkey in a playground.",
+  "A person with a bird, a chicken, a duck, a mouse, and a dog.",
+  "A laptop with a notebook, a pen, a cup, a plate, and a fork.",
+  "A cat, a backpack, a spoon, a fork, a knife, and a bread.",
+  "A horse with a pizza, a carrot, an apple, a sandwich, and a donut.",
+  "A chair, a bottle, a bowl, a spoon, a cup, and a plate.",
+  "A bed with a pillow, a blanket, a teddy bear, a book, and a rug.",
+  "A tie, a glove, a scarf, a hat, a jacket, and a belt.",
+  "A skateboard, a helmet, a ball, a frisbee, a kite, and a bicycle.",
+  "A car with a truck, a boat, an airplane, a train, and a motorcycle.",
+  "A sandwich, a pizza, a donut, a cake, an apple, and a banana.",
+  "A microwave, an oven, a toaster, a refrigerator, a sink, and a cup.",
+  "A couch, a lamp, a clock, a vase, a chair, and a bed.",
+  "A baseball bat, a glove, a baseball, a sports ball, a helmet, and a frisbee.",
+  "A person, a dog, a cat, a rabbit, a horse, and a cow in a kitchen.",
+  "A bird, a chicken, a duck, a mouse, a rabbit, and a dog.",
+  "A paper, a pen, a notebook, a marker, a whiteboard, and a sandwich bag.",
+  "A bottle, a cup, a bowl, a plate, a bread, and a cheese.",
+  "A shoe, a hat, a scarf, a glove, a jacket, and a belt."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "3_concepts": [
+  "A dog with a cat and a rabbit.",
+  "A horse with a cow and a sheep.",
+  "A person with a bird and a dog.",
+  "A cat, a dog, and a rabbit in a bed.",
+  "A horse, a cow, and a sheep in a garden.",
+  "A laptop with a notebook and a pen.",
+  "A cup, a plate, and a fork in a kitchen.",
+  "A bottle with a spoon and a bowl.",
+  "A tie, a glove, and a hat in a chair.",
+  "A skateboard with a helmet and a ball.",
+  "A bicycle, a car, and a bus in a street.",
+  "A sandwich with an apple and a pizza.",
+  "A microwave with an oven and a toaster.",
+  "A bed, a pillow, and a blanket in a living room.",
+  "A baseball bat with a glove and a ball.",
+  "A dog, a cat, and a rabbit in a park.",
+  "A cup with a plate and a bowl.",
+  "A shoe, a scarf, and a jacket in a backpack.",
+  "A person, a dog, and a cat in a laptop.",
+  "A tie with a glove and a hat."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+    "rejected": [
+        {
+            "prompt": "The red hat was on top of the brown coat rack.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The blue water bottle was on top of the red backpack.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The fluffy cat is on the left of the soft pillow.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft pillow was on top of the hard rocking chair.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The green plant was on the right of the white wall.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The blue bowl was on top of the white placemat.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The black chair is on top of the blue rug.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The red book was on top of the yellow bookshelf.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The rough brick was on top of the smooth tile.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The red apple was on top of the black plate.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The striped rug was on top of the tiled floor.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The striped rug was on top of the wooden floor.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The red umbrella was on top of the white coat rack.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The silver laptop was on top of the black desk.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The red mug was on top of the green coaster.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The brown boots were on top of the wooden shoe rack.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The green plant is on top of the silver nightstand.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft towel was on top of the hard counter.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The white book was on top of the blue shelf.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The white mug is on top of the black coaster.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The round clock was on the right of the wooden picture frame.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The round clock was on the left of the rectangular picture frame.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The rectangular book was on top of the black shelf.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The white shirt was on top of the blue pants.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The green plant was on top of the wooden shelf.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The oval plate was on top of the square placemat.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The white shirt was on top of the black pants.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft blanket was on top of the hard couch.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The green plant was on the right of the white window.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The blue book was on top of the red bookshelf.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The square book was on top of the blue table.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The striped rug was on top of the brown carpet.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The blue mug is on top of the green coaster.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The red hat was on top of the brown coat.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft blanket was on top of the hard armchair.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The fluffy pillow was on top of the hard chair.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft pillow was on top of the wooden chair.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The sleek black cat sat on top of the fluffy white pillow.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The sweet berry jam spread on the crunchy toast and the soft butter.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The fiery, blazing sun sank below the horizon, painting the sky with a spectrum of orange and red hues, a stunning display of natural beauty.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft, fluffy texture of the cotton candy melted in the mouth, a sugary treat of childhood nostalgia.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The delicate, intricate web of the spider glistened with dew drops in the early morning light, a marvel of natural engineering.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The sleek, streamlined shape of the airplane soared through the sky, a marvel of modern engineering.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The sharp, angular lines of the modern architecture contrasted with the natural landscape, a melding of human innovation and natural beauty.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The smooth, curved lines of the sculpture flowed effortlessly from one form to the next, a beautiful expression of artistic vision.",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "The soft, gentle lullaby of the mother's voice calmed the crying baby, a soothing embrace of maternal love.",
+            "error": "list index out of range"
+        }
+    ],
+    "statistics": {
+        "total": 300,
+        "accepted": 254,
+        "rejected": 46,
+        "acceptance_rate": "84.7%"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "part5": [
+        {
+            "prompt": "A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, creating an alluring scene of endless possibilities.",
+            "edit_seed": 75686,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A wolf wearing a sheep halloween costume going trick-or-treating at the farm",
+            "edit_seed": 31674,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A wolf wearing a sheep halloween costume going trick-or-treating at the farm",
+            "edit_seed": 31674,
+            "target_seed": 785895,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A cozy winter cabin in a snowy forest at night. Warm yellow lights glow from the windows, and smoke gently rises from the chimney. A deer stands near the trees, watching as a child builds a snowman. In the sky, the northern lights shimmer above the treetops.",
+            "edit_seed": 378858,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. With a futuristic city in ruins at his back and a red sword in hand, he embodies the fusion of ancient valor and advanced technology, ready to face the chaos ahead.",
+            "edit_seed": 1002,
+            "target_seed": 1012,
+            "dataset": "itercomp"
+        }
+    ]
+}

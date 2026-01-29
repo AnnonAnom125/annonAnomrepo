@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Output directories
+outputs/
+models/checkpoints/
+promptsets/COCOEE/COCOEE_images/
+promptsets/COCOEE/COCOEE_masks/
+promptsets/COCOEE/COCOEE_points/
+promptsets/AnyBench-test/anybench/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE settings
+.vscode/
+.idea/

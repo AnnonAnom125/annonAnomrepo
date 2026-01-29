@@ -1,0 +1,244 @@
+{
+    "BObench": [
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 340839,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 47038,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",
+            "edit_seed": 653050,
+            "target_seed": 303620,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "A cyberpunk woman on a motorbike drives away down a street while wearing sunglasses.",
+            "edit_seed": 854347,
+            "target_seed": 566806,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A cyberpunk woman on a motorbike drives away down a street while wearing sunglasses.",
+            "edit_seed": 116982,
+            "target_seed": 566806,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A comic book illustration by John Kirby depicting a jungle fortress surrounded by dirt walls in a marketplace setting with cinematic rays of sunlight.",
+            "edit_seed": 134548,
+            "target_seed": 786860,
+            "dataset": "anime"
+        },
+        {
+            "prompt": "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.",
+            "edit_seed": 320923,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.",
+            "edit_seed": 398431,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 320923,
+            "target_seed": 166844,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 116982,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 55103,
+            "target_seed": 166844,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "A person in a suit holding a sword.",
+            "edit_seed": 861882,
+            "target_seed": 631294,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A person in a suit holding a sword.",
+            "edit_seed": 790590,
+            "target_seed": 861882,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "Psytrance artwork featuring octane design.",
+            "edit_seed": 861882,
+            "target_seed": 241870,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "Psytrance artwork featuring octane design.",
+            "edit_seed": 123,
+            "target_seed": 241870,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A forest with blue flowers illustrated in a digital matte style by Dan Mumford and M.W Kaluta.",
+            "edit_seed": 872994,
+            "target_seed": 796593,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A vividly realistic depiction of a snowy Swedish lake at night with hyper-detailed, cinematic-level artistry showcased on ArtStation.",
+            "edit_seed": 241870,
+            "target_seed": 598,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "A vividly realistic depiction of a snowy Swedish lake at night with hyper-detailed, cinematic-level artistry showcased on ArtStation.",
+            "edit_seed": 241870,
+            "target_seed": 631294,
+            "dataset": "concept-art"
+        },
+        {
+            "prompt": "On the rooftop of a skyscraper in a bustling cyberpunk city, a figure in a trench coat and neon-lit visor stands amidst a garden of bio-luminescent plants, overlooking the maze of flying cars and towering holograms. Robotic birds flit among the foliage, digital billboards flash advertisements in the distance.",
+            "edit_seed": 870485,
+            "target_seed": 378858,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "On the rooftop of a skyscraper in a bustling cyberpunk city, a figure in a trench coat and neon-lit visor stands amidst a garden of bio-luminescent plants, overlooking the maze of flying cars and towering holograms. Robotic birds flit among the foliage, digital billboards flash advertisements in the distance.",
+            "edit_seed": 75686,
+            "target_seed": 598,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, creating an alluring scene of endless possibilities.",
+            "edit_seed": 75686,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A wolf wearing a sheep halloween costume going trick-or-treating at the farm",
+            "edit_seed": 31674,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A wolf wearing a sheep halloween costume going trick-or-treating at the farm",
+            "edit_seed": 31674,
+            "target_seed": 785895,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A cozy winter cabin in a snowy forest at night. Warm yellow lights glow from the windows, and smoke gently rises from the chimney. A deer stands near the trees, watching as a child builds a snowman. In the sky, the northern lights shimmer above the treetops.",
+            "edit_seed": 378858,
+            "target_seed": 870485,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. With a futuristic city in ruins at his back and a red sword in hand, he embodies the fusion of ancient valor and advanced technology, ready to face the chaos ahead.",
+            "edit_seed": 1002,
+            "target_seed": 1012,
+            "dataset": "itercomp"
+        },
+        {
+            "prompt": "A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
+            "edit_seed": 195730,
+            "target_seed": 1673849,
+            "dataset": "paintings"
+        },
+        {
+            "prompt": "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
+            "edit_seed": 701469,
+            "target_seed": 114490,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
+            "edit_seed": 701469,
+            "target_seed": 844666,
+            "dataset": "dalle"
+        },
+        {
+            "prompt": "A black and white photo of a steam of flowers inside a vase.",
+            "edit_seed": 405852,
+            "target_seed": 706219,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A black and white photo of a steam of flowers inside a vase.",
+            "edit_seed": 405852,
+            "target_seed": 830509,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "An airplane on the runway of an airport.",
+            "edit_seed": 706219,
+            "target_seed": 798074,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A girl is holding a large kite on a grassy field.",
+            "edit_seed": 830509,
+            "target_seed": 798074,
+            "dataset": "photo"
+        },
+        {
+            "prompt": "A flower patterned otter is playing with a butterfly shaped bowl",
+            "edit_seed": 722798,
+            "target_seed": 8475638,
+            "dataset": "rarebench_multi_2relation"
+        },
+        {
+            "prompt": "red and yellow balloons hanging from a ceiling fan",
+            "edit_seed": 334750,
+            "target_seed": 661720,
+            "dataset": "partiprompts"
+        },
+        {
+            "prompt": "a tidal wave approaching a coastal road",
+            "edit_seed": 8008,
+            "target_seed": 200,
+            "dataset": "partiprompts"
+        },
+        {
+            "prompt": "The smooth silk gown flowed over the delicate skin and the rough floor.",
+            "edit_seed": 313696,
+            "target_seed": 967758,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 313696,
+            "target_seed": 749727,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 983467,
+            "target_seed": 749727,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 749727,
+            "target_seed": 606928,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.",
+            "edit_seed": 967748,
+            "target_seed": 606928,
+            "dataset": "complex_val"
+        }
+    ]
+}

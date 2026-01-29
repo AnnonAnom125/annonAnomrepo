@@ -1,0 +1,34 @@
+{
+    "part8": [
+        {
+            "prompt": "The smooth silk gown flowed over the delicate skin and the rough floor.",
+            "edit_seed": 313696,
+            "target_seed": 967758,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 313696,
+            "target_seed": 749727,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 983467,
+            "target_seed": 749727,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.",
+            "edit_seed": 749727,
+            "target_seed": 606928,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.",
+            "edit_seed": 967748,
+            "target_seed": 606928,
+            "dataset": "complex_val"
+        }
+    ]
+}

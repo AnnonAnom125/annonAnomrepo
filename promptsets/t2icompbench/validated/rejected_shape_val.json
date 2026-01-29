@@ -1,0 +1,18 @@
+{
+    "rejected": [
+        {
+            "prompt": "a cubic Rubik's cube and a pentagonal game box",
+            "error": "list index out of range"
+        },
+        {
+            "prompt": "a cubic Rubik's cube and a cylindrical pencil holder",
+            "error": "list index out of range"
+        }
+    ],
+    "statistics": {
+        "total": 300,
+        "accepted": 298,
+        "rejected": 2,
+        "acceptance_rate": "99.3%"
+    }
+}

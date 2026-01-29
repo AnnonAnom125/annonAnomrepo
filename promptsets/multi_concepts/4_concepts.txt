@@ -1,0 +1,24 @@
+{
+  "4_concepts": [
+  "A lion with a zebra, an elephant, and a giraffe.",
+  "A dog, a cat, a horse, and a sheep in a bedroom.",
+  "A person with a bird, a chicken, and a duck.",
+  "A horse with a pizza, a bread, and a cheese.",
+  "A laptop, a cup, a notebook, and a pen in a farm.",
+  "A chair with a table, a bottle, and a cup.",
+  "A sandwich, a donut, a pizza, and an apple.",
+  "A baseball bat with a glove, a ball, and a helmet.",
+  "A bicycle, a skateboard, a frisbee, and a kite in a park.",
+  "A microwave with an oven, a toaster, and a refrigerator.",
+  "A bed, a pillow, a blanket, and a teddy bear.",
+  "A tie with a hat, a glove, and a scarf.",
+  "A cat, a dog, a rabbit, and a horse in a garden.",
+  "A car with a truck, a bus, and a motorcycle.",
+  "A sandwich, a pizza, a donut, and a cake.",
+  "A cup with a bottle, a plate, and a bowl.",
+  "A person, a dog, a cat, and a rabbit in a playground.",
+  "A book with a clock, a vase, and a lamp.",
+  "A shoe, a hat, a scarf, and a jacket in a backpack.",
+  "A keyboard with a mouse, a remote, and a laptop."
+  ]
+}

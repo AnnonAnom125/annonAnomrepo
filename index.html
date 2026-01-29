@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>MultiBO : Personalized Image Generation via Human-in-the-loop Bayesian Optimization</title>
+
+  <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+  /* Center the Code section only */
+.code-section {
+  text-align: center;
+}
+
+/* Keep heading nicely centered */
+.code-section h2 {
+  text-align: center;
+}
+
+/* Button already inline-block, this ensures perfect centering */
+.code-section .code-link {
+  margin-top: 20px;
+}
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      color: #222;
+    }
+    h2, h3, h4 {
+    text-align: left;
+    font-weight: 600;
+  }
+    h1 {
+    text-align: center;
+    font-weight: 600;
+  }
+    /* Top Banner */
+    .banner {
+      background-color: #007acc;
+      color: white;
+      padding: 40px 20px 20px 20px;
+    }
+    .banner h1 {
+      margin: 0;
+      font-size: 2.2em;
+      text-align: center;
+    }
+    .subtitle {
+      font-style: italic;
+      color: #e0e0e0;
+      margin-top: 0.5em;
+      text-align: center;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #f4f4f4;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      color: #007acc;
+    }
+
+    /* Section spacing */
+    section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Abstract box */
+    .abstract {
+      background: #f9f9f9;
+      padding: 1em;
+      border-left: 4px solid #444;
+      white-space: pre-line;
+      text-align: left;
+      display: inline-block;
+      max-width: 1200px;
+    }
+
+    /* Figures */
+    figure {
+      margin: 2em auto;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      height: auto;
+      /* border: 1px solid #ddd; */
+    }
+    figcaption {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.5em;
+    }
+
+    /* Algorithm Section - 3 side by side */
+    .three-figures {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .three-figures figure {
+      flex: 1;
+      max-width: 580px;
+    }
+
+    /* Code section */
+    .code-link a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .code-link a:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="banner">
+    <h1>MultiBO: Personalized Image Generation via Human-in-the-loop Bayesian Optimization</h1>
+    <div class="subtitle">Under review</div>
+  </div>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="#abstract">Abstract</a>
+    <a href="#hypothesis">Hypothesis</a>
+    <a href="#algorithm">Algorithm</a>
+    <a href="#results">Results</a>
+    <a href="#code">Code</a>
+  </div>
+
+  <!-- Abstract -->
+  <section id="abstract">
+    <h2>Abstract</h2>
+    <div class="abstract">
+<p>Consider the scenario in which Alice has a specific image $x^*$ in her mind, say, the view of the street in which she grew up during her childhood.
+To generate that exact image using generative models, she guides the model with multiple rounds of prompting and arrives at an image $x^{p*}$.
+Although $x^{p*}$ is reasonably close to $x^*$, a gap remains between them  and Alice finds it difficult to close that gap using language prompts.
+This paper aims to narrow this gap by observing that even though language has its limits, Alice might be able to tell when a new image $x^+$ is closer to $x^*$ than $x^{p*}$. 
+Leveraging this observation, we develop {\name} (Multi-Choice Preferential Bayesian Optimization) that carefully generates $N$ new images as a function of $x^{p*}$, gets preferential feedback from the user, uses the feedback to guide the diffusion model, and ultimately generates a new set of $N$ images.
+We show that after several rounds of user feedback, it is possible to arrive much closer to $x^*$, even though the generative model has no information about $x^*$.
+Qualitative scores from $25+$ users, combined with quantitative metrics  compared across $6$ different baselines, show promising results, suggesting that even weak feedback signals from humans can go a long way towards personalized image generation.>
+    </div>
+    
+  </section>
+
+  <!-- Hypothesis -->
+  <section id="hypothesis">
+    <h2>Multi-Choice Preferential Bayesian Optimization</h2>
+     <section>
+  <p>
+    In conventional diffusion, \( D_\theta(\cdot) \) denoises a noisy image
+    \( x_t \) to \( x_0 \).
+  </p>
+
+  <p>
+    Our goal is to arrive at \( x^* \) by performing a human-in-the-loop
+    optimization on \( x_t \) as follows:
+  </p>
+
+  \[
+    \underset{v}{\arg \min} \; f(x^*) - f\!\left(D_\theta(x_t + v)\right)
+  \]
+
+  <p>
+    where \( f \) is the user's satisfaction function, maximized at \( x^* \).
+    Unfortunately, \( f(\cdot) \) is unknown—a blackbox function—hence there is
+    no gradient to be obtained.
+  </p>
+
+  <p>
+    However, it is possible to sample \( f(\cdot) \), meaning that we can query
+    the user for feedback for any given image \( D_\theta(x) \).
+    Assuming such feedback, we can adopt well understood Bayesian optimization
+    methods using Gaussian Process Regression (GPR), explained in
+    Sec. <span class="ref">Related Work</span>.
+  </p>
+
+  <p>
+    This method will propose judiciously chosen variants of \( x_t \),
+    say \( x_t^j \), and the user will rate how close
+    \( D_\theta(x_t^j) \) is to \( x^* \).
+    GPR can utilize this feedback to update its predictions, eventually finding
+    \( D_\theta(\hat{x}_t^*) \) that is arbitrarily close to \( x^* \).
+    Of course, to reduce user burden, the number of user queries needs to be
+    limited to a budget \( B \).
+  </p>
+</section>
+
+    <figure>
+      <img src="assets/Fig_wally_4.png" alt="Figure 2">
+      <figcaption>Optimization landscape of MultiBO.</figcaption>
+    </figure>
+
+    <p>
+      Figure 1 : The optimization landscape of MultiBO.
+    </p>
+  </section>
+  
+<section>
+  <p><strong>Problems arise in realizing this high-level idea.</strong></p>
+
+  <p>
+    <strong>①</strong> Operating GPR in the high-dimensional pixel space is very
+    difficult. The optimization must be re-cast to a much lower-dimensional
+    space, while ensuring that the manifold of correct images, at time \( t \),
+    can be reached from \( x_t \).
+  </p>
+
+  <p>
+    <strong>②</strong> Giving numerical feedback,
+    \( f(D_\theta(x_t^j)) \), is known to be difficult for users
+    because they may not be able to <em>quantify</em> how much worse a given
+    \( D_\theta(x_t^j) \) is compared to \( x^* \).
+    However, it is much easier to give a preference between a pair of images,
+    or from a set of \( N \) images.
+  </p>
+
+  <p>
+    A user-friendly solution needs to design the GPR framework in a suitable
+    low-dimensional space, while plugging in the user's preferential feedback
+    into it.
+  </p>
+</section>
+
+<section>
+  <p>
+    Past work has made progress where diffusion models leverage human preference.
+    For example, prior work trains global reward models, where volunteers express
+    preferences between pairs of images; this reward model becomes a proxy for
+    human preference, which ultimately guides the denoising vector.
+  </p>
+
+  <p>
+    Similar ideas exist in blackbox optimization through preferential likelihood
+    models, where the framework can accommodate pairwise preferential feedback
+    from users.
+    However, when the function domain is high dimensional, and when a user's
+    preference is pairwise, mapping the function reasonably well incurs excessive
+    user feedback.
+    Reducing user burden calls for richer preferential information, made
+    compatible with a lower-dimensional space, to speed up the overall
+    optimization.
+  </p>
+</section>
+
+<section>
+  <p>
+    <strong>{name}</strong> contributes by observing that multi-choice preference
+    queries give far richer information to the optimization, and shows that such
+    \( K \)-out-of-\( N \) feedback can be mathematically accommodated by updating
+    the likelihood model and the acquisition function in the GPR framework.
+  </p>
+
+  <p>
+    Moreover, building on the empirical success of recent work,
+    <strong>{name}</strong> proposes performing the optimization in a
+    low-dimensional transformation space, where the transformations are applied
+    to the \( \langle K, Q, V \rangle \) matrices in the attention layer of a
+    diffusion model.
+    These transformations are parameterized by suitably low dimensions, yet
+    offer high flexibility to explore the image manifold around \( x_t \).
+  </p>
+
+  <p>
+    In sum, <strong>{name}</strong> utilizes multi-choice user feedback to alter
+    image-patch representations inside the attention layer, with the goal of
+    moving the denoised image \( D_\theta(x_t^j) \) closer to \( x^* \).
+  </p>
+</section>
+
+<figure>
+      <img src="assets/outline.png" alt="Figure 1">
+      <figcaption>Figure 1: The figure illustrates the system flow of MultiBO. The three main modules are: Multi-choice preferential likelihood model, Dynamic balanced subspace acquisition function, and Self-Attention Warping. The three modules collectively achieve image personalization. 
+     </figcaption>
+    </figure>
+
+
+  <!-- Algorithm Section -->
+  <section id="algorithm">
+    <h2>MultiBO – Algorithm</h2>
+    <div class="three-figures">
+      <figure>
+        <img src="assets/algo_1.png" alt="Algorithm 1">
+        <!-- <figcaption>Algorithm Step 1</figcaption> -->
+      </figure>
+      <figure>
+        <img src="assets/algo_2.png" alt="Algorithm  2">
+        <!-- <figcaption>Algorithm Step 2</figcaption> -->
+      </figure>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section id="results">
+    <h2>Results</h2>
+    <figure>
+      <img src="assets/tab_1.png" alt="Figure 3">
+      <figcaption>Figure 3: Quantitative comparison of different methods on popular alignment metrics. Top performing model is highlighted in <b>Black</b> and 2nd best in <font color="blue"><b>Blue</b></font>. Higher the score the better.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/image_multibo_iters_v1.png" alt="Figure 4">
+      <figcaption>Figure 4: Qualitative results showing progress of MultiBO.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/methods_demon_v1.png" alt="Figure 5">
+      <figcaption>Figure 5: Qualitative comparison of MultiBO with DEMON <i>choose generate</i>.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/methods_aesthetic_v1.png" alt="Figure 5">
+      <figcaption>Figure 6: Additional qualitative comparison of MultiBO and alignment works on Aesthetic metric.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/methods_multibo_extra_v1.png" alt="Figure 6">
+      <figcaption>Figure 7: Additional qualitative results of MultiBO.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Code -->
+  <section id="code" class="code-section">
+    <h2>Code</h2>
+    <div class="code-link">
+      <a href="https://github.com/AnnonAnom125/annonAnom.git" target="_blank">View Code</a>
+    </div>
+  </section>
+
+</body>
+</html>

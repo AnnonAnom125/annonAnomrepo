@@ -1,0 +1,24 @@
+{
+    "itercomp": [
+        "Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. With a futuristic city in ruins at his back and a red sword in hand, he embodies the fusion of ancient valor and advanced technology, ready to face the chaos ahead.",
+        "Futuristic and prehistoric worlds collide: Dinosaurs roam near a medieval castle, flying cars and advanced skyscrapers dominate the skyline. A river winds through lush greenery, blending ancient and modern civilizations in a surreal landscape.",
+        "Under the luminous full moon, a serene Japanese garden with traditional pagodas and a tranquil pond creates a magical night scene. The soft glow from the lantern-lit buildings reflects on the water, blending nature and architecture in harmony. The moonlight bathes the landscape, enhancing the peaceful ambiance.",
+        "In a magical seascape, a majestic ship sails through crystal blue waters surrounded by vibrant marine life and soaring birds. Towering cliffs frame the scene, while a stunning rainbow arches across the sky, blending with ethereal clouds. This enchanting journey captures the serene beauty of nature's wonders.",
+        "On the rooftop of a skyscraper in a bustling cyberpunk city, a figure in a trench coat and neon-lit visor stands amidst a garden of bio-luminescent plants, overlooking the maze of flying cars and towering holograms. Robotic birds flit among the foliage, digital billboards flash advertisements in the distance.",
+        "A colossal, ancient tree with leaves made of ice towers over a mystical castle. Green trees line both sides, while cascading waterfalls and an ethereal glow adorn the scene. The backdrop features towering mountains and a vibrant, colorful sky.",
+        "A surreal dreamscape where the sky is split into day and night. On the left side, a bright sun shines over golden fields with people flying kites, while on the right side, a deep blue night sky is filled with stars and glowing jellyfish floating in the air. In the center, a giant clock tower stands, with its hands pointing to different times for each side. A person wearing a half-day, half-night cloak is walking down the path that separates the two worlds.",
+        "A floating city above the clouds, with golden towers and waterfalls cascading into the mist below. A dragon with shimmering wings soars through the sky, while airships dock at crystal platforms.",
+        "A cozy winter cabin in a snowy forest at night. Warm yellow lights glow from the windows, and smoke gently rises from the chimney. A deer stands near the trees, watching as a child builds a snowman. In the sky, the northern lights shimmer above the treetops.",
+        "close up headshot, steampunk middle-aged man, slick hair big grin in front of gigantic clocktower, pencil sketch.",
+        "close up headshot, futuristic young woman with glasses, wild hair sly smile in front of gigantic UFO, dslr, sharp focus, dynamic composition.",
+        "A man and woman using their cellphones, photograph",
+        "A bulldog mob boss, moody cinematic feel",
+        "A old historical notebook detailing the discovery of unicorns ",
+        "A purple raven flying over a forest of fall colors, imaginary documentary",
+        "Small dinosaurs shopping in a grocery store, oil painting",
+        "A wolf wearing a sheep halloween costume going trick-or-treating at the farm",
+        "A mummy studying hard in the library for finals, head in hands",
+        "A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, creating an alluring scene of endless possibilities.",
+        " In a fantastical setting, a highly detailed furry humanoid skunk with piercing eyes confidently poses in a medium shot, wearing an animal hide jacket. The artist has masterfully rendered the character in digital art, capturing the intricate details of fur and clothing texture",
+    ]
+}

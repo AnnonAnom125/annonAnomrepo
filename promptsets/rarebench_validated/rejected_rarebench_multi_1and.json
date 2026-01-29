@@ -1,0 +1,26 @@
+{
+    "rejected": [
+        {
+            "prompt": "a cactus made of steel and two sunflowers made of glass",
+            "error": "Empty token indices after filtering"
+        },
+        {
+            "prompt": "a stork made of diamonds and a tulip made of diamonds",
+            "error": "Empty token indices after filtering"
+        },
+        {
+            "prompt": "a hotdog made of marble and two bananas made of marble",
+            "error": "Empty token indices after filtering"
+        },
+        {
+            "prompt": "a globe made of glass and a cake made of clouds",
+            "error": "Empty token indices after filtering"
+        }
+    ],
+    "statistics": {
+        "total": 40,
+        "accepted": 36,
+        "rejected": 4,
+        "acceptance_rate": "90.0%"
+    }
+}

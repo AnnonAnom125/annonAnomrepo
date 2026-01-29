@@ -1,0 +1,34 @@
+{
+    "part2": [
+        {
+            "prompt": "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.",
+            "edit_seed": 320923,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.",
+            "edit_seed": 398431,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 320923,
+            "target_seed": 166844,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 116982,
+            "target_seed": 671012,
+            "dataset": "complex_val"
+        },
+        {
+            "prompt": "The fragrant flowers bloomed on the sturdy stem and the thorny bush.",
+            "edit_seed": 55103,
+            "target_seed": 166844,
+            "dataset": "complex_val"
+        }
+    ]
+}
