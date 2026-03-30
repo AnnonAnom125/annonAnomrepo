@@ -67,6 +67,10 @@ window.MathJax = {
   margin-top: 10px;
   line-height: 1.4;
 }
+    .fig-label {
+  font-size: 1.3rem;
+  font-weight: bold;   /* makes it bold */
+}
     /* Top Banner */
     .banner {
       background-color: #007acc;
@@ -213,10 +217,10 @@ window.MathJax = {
     <br>
     <figure>
       <img src="assets/image_multibo_conv_less_than_50_iters_v1.png" alt="Figure 2">
-      <figcaption><b>Figure 2:</b> Qualitative Examples when {\name} converges in $B < 50$, mostly converging around $B = 20 - 30$. For prompts: <i>``A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
-        ``a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
-        ``a tidal wave approaching a coastal road",``The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.",``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", 
-        ``A wolf wearing a sheep halloween costume going trick-or-treating at the farm", ``Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. 
+      <figcaption><span class="fig-label">Figure 2:</span> Qualitative Examples when <b>MultiBO</b> converges in $B < 50$, mostly converging around $B = 20 - 30$. For prompts: <i>"A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
+        "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
+        "a tidal wave approaching a coastal road","The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.","The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", 
+        "A wolf wearing a sheep halloween costume going trick-or-treating at the farm", "Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. 
         With a futuristic city in ruins at his back and a red sword in hand, he embodies the fusion of ancient valor and advanced technology, ready to face the chaos ahead."</i></figcaption>
     </figure>
     
@@ -228,29 +232,29 @@ window.MathJax = {
     <br>
     <figure>
       <img src="assets/image_multibo_unreliable_user_v1.png" alt="Figure 3">
-      <figcaption><b>Figure 3:</b> Qualitative Examples with different amounts ($10, 30, 50, 75 \%$) of unreliable user preference input to {\name} ($B=50$). For prompts: <i>``A person in a suit holding a sword.", ``A forest with blue flowers illustrated in a digital matte style by Dan Mumford and M.W Kaluta.", 
-        ``A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, 
-        creating an alluring scene of endless possibilities.",``an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, 
-        educational twist to atomic structure visualization.", ``The fragrant flowers bloomed on the sturdy stem and the thorny bush.", ``A girl is holding a large kite on a grassy field.", ``a tidal wave approaching a coastal road", ``a dog and a frog".</i></figcaption>
+      <figcaption><span class="fig-label">Figure 3:</span> Qualitative Examples with different amounts ($10, 30, 50, 75 \%$) of unreliable user preference input to <b>MultiBO</b> ($B=50$). For prompts: <i>"A person in a suit holding a sword.", "A forest with blue flowers illustrated in a digital matte style by Dan Mumford and M.W Kaluta.", 
+        "A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, 
+        creating an alluring scene of endless possibilities.","an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, 
+        educational twist to atomic structure visualization.", "The fragrant flowers bloomed on the sturdy stem and the thorny bush.", "A girl is holding a large kite on a grassy field.", "a tidal wave approaching a coastal road", "a dog and a frog".</i></figcaption>
     </figure>
     
     <br><br>
     <h3>4. Randomizations</h3>
     <figure>
       <img src="assets/image_multibo_start_v2.png" alt="Figure 4">
-      <figcaption><b>Figure 4:</b> Qualitative Examples for different starts $x_0$ and same target $x^*$. For prompts: <i>``an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital 
-        art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface."</i></figcaption>
+      <figcaption><span class="fig-label">Figure 4:</span> Qualitative Examples for different starts $x_0$ and same target $x^*$. For prompts: <i>"an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital 
+        art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.","The smooth, cool surface of the river rocks were perfect for skipping across the water's surface."</i></figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_end_v2.png" alt="Figure 5">
-      <figcaption><b>Figure 5:</b> Qualitative Examples for same start $x_0$ and different targets $x^*$:. For prompts: <i>``A wolf wearing a sheep halloween costume going trick-or-treating at the farm", ``a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape. 
+      <figcaption><span class="fig-label">Figure 5:</span> Qualitative Examples for same start $x_0$ and different targets $x^*$:. For prompts: <i>"A wolf wearing a sheep halloween costume going trick-or-treating at the farm", "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape. 
         sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance."</i></figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_BO_seed_runs_iters_v1.png" alt="Figure 6">
-      <figcaption><b>Figure 6:</b> Qualitative Examples for same start $x_0$ and same target $x^*$ for two {\name} runs with different optimization seeds. For prompts: <i>``a tidal wave approaching a coastal road", ``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", ``The fragrant 
+      <figcaption><span class="fig-label">Figure 6:</span> Qualitative Examples for same start $x_0$ and same target $x^*$ for two <b>MultiBO</b> runs with different optimization seeds. For prompts: <i>"a tidal wave approaching a coastal road", "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", "The fragrant 
         flowers bloomed on the sturdy stem and the thorny bush."</i></figcaption>
     </figure>
     
@@ -262,15 +266,15 @@ window.MathJax = {
     <br>
     <figure>
       <img src="assets/image_multibo_far_start_iters_v3.png" alt="Figure 7">
-      <figcaption><b>Figure 7:</b> Qualitative Examples of {\name} for far away starting images $x_0$ (missing objects, wrong colors, etc.). For prompts: <i>``a bird and a mouse", ``The fragrant flowers bloomed on the sturdy stem and the thorny bush.", ``a monkey and a frog", ``A cyberpunk woman on a motorbike drives away down 
-        a street while wearing sunglasses.", ``a elephant with a bow".</i></figcaption>
+      <figcaption><span class="fig-label">Figure 7:</span> Qualitative Examples of <b>MultiBO</b> for far away starting images $x_0$ (missing objects, wrong colors, etc.). For prompts: <i>"a bird and a mouse", "The fragrant flowers bloomed on the sturdy stem and the thorny bush.", "a monkey and a frog", "A cyberpunk woman on a motorbike drives away down 
+        a street while wearing sunglasses.", "a elephant with a bow".</i></figcaption>
     </figure>
 
     <br><br>
     <h3>6. Attention Warping Artifacts</h3>
     <figure>
       <img src="assets/image_multibo_artifacts_v1.png" alt="Figure 8">
-      <figcaption><b>Figure 8:</b> A few Examples of Attention Warping artifacts.</figcaption>
+      <figcaption><span class="fig-label">Figure 8:</span> A few Examples of Attention Warping artifacts.</figcaption>
     </figure>
     
     <br><br>
