@@ -44,6 +44,7 @@ window.MathJax = {
     text-align: left;
     font-weight: 600;
   }
+    
     h1 {
     text-align: center;
     font-weight: 600;
@@ -128,11 +129,11 @@ window.MathJax = {
       height: auto;
       /* border: 1px solid #ddd; */
     }
-    figcaption {
+    /*figcaption {
       font-size: 0.9em;
       color: #555;
       margin-top: 0.5em;
-    }
+    }*/
 
     /* Algorithm Section - 3 side by side */
     .three-figures {
@@ -185,7 +186,7 @@ window.MathJax = {
     <h2>Rebuttal Results</h2>
     
     
-    <h3>1. Memory and Time Analysis</h3>
+    <h2>1. Memory and Time Analysis</h2>
     <figure>
       <img src="assets/table_compute_v1.png" alt="Table 1">
     </figure>
@@ -195,13 +196,13 @@ window.MathJax = {
     </figure>
     
     
-    <h3>2. Performance across iterations, B</h3>
+    <h2>2. Performance across iterations, B</h2>
     <figure>
       <img src="assets/table_b_less_v3.png" alt="Figure 1">
     </figure>
     <br>
     <figure>
-      <img src="assets/image_multibo_conv_less_than_50_iters_v1.png" alt="Figure 2" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_conv_less_than_50_iters_v1.png" alt="Figure 2">
       <figcaption><b>Figure 2:</b> Qualitative Examples when {\name} converges in $B < 50$, mostly converging around $B = 20 - 30$. For prompts: <i>``A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
         ``a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
         ``a tidal wave approaching a coastal road",``The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.",``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", 
@@ -210,7 +211,7 @@ window.MathJax = {
     </figure>
     
     
-    <h3>3. Performance in presence of inconsistent user preference</h3>
+    <h2>3. Performance in presence of inconsistent user preference</h2>
     <figure>
       <img src="assets/table_unreliable_v1.png" alt="Table 3" style="max-width: 60%; height: auto;">
     </figure>
@@ -224,45 +225,45 @@ window.MathJax = {
     </figure>
     
     
-    <h3>4. Randomizations</h3>
+    <h2>4. Randomizations</h2>
     <figure>
-      <img src="assets/image_multibo_start_v2.png" alt="Figure 4" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_start_v2.png" alt="Figure 4">
       <figcaption><b>Figure 4:</b> Qualitative Examples for different starts $x_0$ and same target $x^*$. For prompts: <i>``an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital 
         art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.",``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface."</i></figcaption>
     </figure>
     <br>
     <figure>
-      <img src="assets/image_multibo_end_v2.png" alt="Figure 5" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_end_v2.png" alt="Figure 5">
       <figcaption><b>Figure 5:</b> Qualitative Examples for same start $x_0$ and different targets $x^*$:. For prompts: <i>``A wolf wearing a sheep halloween costume going trick-or-treating at the farm", ``a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape. 
         sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance."</i></figcaption>
     </figure>
     <br>
     <figure>
-      <img src="assets/image_multibo_BO_seed_runs_iters_v1.png" alt="Figure 6" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_BO_seed_runs_iters_v1.png" alt="Figure 6">
       <figcaption><b>Figure 6:</b> Qualitative Examples for same start $x_0$ and same target $x^*$ for two {\name} runs with different optimization seeds. For prompts: <i>``a tidal wave approaching a coastal road", ``The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", ``The fragrant 
         flowers bloomed on the sturdy stem and the thorny bush."</i></figcaption>
     </figure>
     
     
-    <h3>5. Performance for far away starts</h3>
+    <h2>5. Performance for far away starts</h2>
     <figure>
       <img src="assets/table_far.png" alt="Table 4" style="max-width: 80%; height: auto;">
     </figure>
     <br>
     <figure>
-      <img src="assets/image_multibo_far_start_iters_v3.png" alt="Figure 7" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_far_start_iters_v3.png" alt="Figure 7">
       <figcaption><b>Figure 7:</b> Qualitative Examples of {\name} for far away starting images $x_0$ (missing objects, wrong colors, etc.). For prompts: <i>``a bird and a mouse", ``The fragrant flowers bloomed on the sturdy stem and the thorny bush.", ``a monkey and a frog", ``A cyberpunk woman on a motorbike drives away down 
         a street while wearing sunglasses.", ``a elephant with a bow".</i></figcaption>
     </figure>
     
-    <h3>6. Attention Warping Artifacts</h3>
+    <h2>6. Attention Warping Artifacts</h2>
     <figure>
-      <img src="assets/image_multibo_artifacts_v1.png" alt="Figure 8" style="max-width: 70%; height: auto;">
+      <img src="assets/image_multibo_artifacts_v1.png" alt="Figure 8">
       <figcaption><b>Figure 8:</b> A few Examples of Attention Warping artifacts.</figcaption>
     </figure>
     
     
-    <h3>7. Real-world Targets</h3>
+    <h2>7. Real-world Targets</h2>
     
   </section>
 
