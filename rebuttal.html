@@ -202,22 +202,30 @@ window.MathJax = {
     
     <h3>1. Memory and Time Analysis</h3>
     <figure>
-      <img src="assets/table_compute_v1.png" alt="Table 1">
+      <img src="assets/table_compute_v3.png" alt="Table 1">
+      <figcaption><span class="fig-label">R.Table 1:</span>Memory and time analysis of <b>MultiBO</b>, and baselines: <b>MultiBO</b>_&lt;LPIPS&gt; and DEMON <i>choose generate</i>. Base SDXL model memory = 8.5 GB. 
+        We report 5 sets of results: (1) quantitative metrics, (2) memory usage of different methods, (3) average per iteration image generation time, BO processing time, human feedback time, and the combined 
+        time, (4) total generation time, human feedback time, and combined time until convergence, and (5) average number of iterations and corresponding images to convergence. <b>MultiBO</b> and the baselines 
+        are assumed to have converged if the resulting image \(\hat{x}^*\) of two successive iterations have a difference in LPIPS score \( &lt; 10^{-2} \). </figcaption>
     </figure>
     <br>
     <figure>
-      <img src="assets/table_compute_b_v1.png" alt="Table 2" style="max-width: 60%; height: auto;">
+      <img src="assets/table_compute_b_v3.png" alt="Table 2" style="max-width: 60%; height: auto;">
+      <figcaption><span class="fig-label">R.Table 2:</span>Human feedback time across different iterations (optimization progress).</figcaption>
     </figure>
     
     <br><br>
     <h3>2. Performance across Iterations, B</h3>
     <figure>
       <img src="assets/table_b_less_v3.png" alt="Figure 1">
+      <figcaption><span class="fig-label">R.Figure 1:</span>Performance of <b>MultiBO</b> on metrics LPIPS (a) and CLIP-I (b) as optimization progresses. Sample distribution (c) vs B iterations to 
+        converge.</figcaption>
+      
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_conv_less_than_50_iters_v1.png" alt="Figure 2">
-      <figcaption><span class="fig-label">Figure 2:</span> Qualitative Examples when <b>MultiBO</b> converges in $B < 50$, mostly converging around $B = 20 - 30$. For prompts: <i>"A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
+      <figcaption><span class="fig-label">R.Figure 2:</span> Qualitative Examples when <b>MultiBO</b> converges in B < 50, mostly converging around B = 20 - 30. For prompts: <i>"A peaceful, nature-filled landscape with vibrant flowers and trees and a serene cloud-filled sky.",
         "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape.  sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance.",
         "a tidal wave approaching a coastal road","The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.","The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", 
         "A wolf wearing a sheep halloween costume going trick-or-treating at the farm", "Amidst a stormy, apocalyptic skyline, a masked warrior stands resolute, adorned in intricate armor and a flowing cape. Lightning illuminates the dark clouds behind him, highlighting his steely determination. 
@@ -227,12 +235,13 @@ window.MathJax = {
     <br><br>
     <h3>3. Performance in Presence of Inconsistent User Preference</h3>
     <figure>
-      <img src="assets/table_unreliable_v1.png" alt="Table 3" style="max-width: 60%; height: auto;">
+      <img src="assets/table_unreliable_v3.png" alt="Table 3" style="max-width: 60%; height: auto;">
+      <figcaption><span class="fig-label">R.Table 3:</span>Impact of unreliable user preference on <b>MultiBO</b> performance (B=50).</figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_unreliable_user_v1.png" alt="Figure 3">
-      <figcaption><span class="fig-label">Figure 3:</span> Qualitative Examples with different amounts ($10, 30, 50, 75 \%$) of unreliable user preference input to <b>MultiBO</b> ($B=50$). For prompts: <i>"A person in a suit holding a sword.", "A forest with blue flowers illustrated in a digital matte style by Dan Mumford and M.W Kaluta.", 
+      <figcaption><span class="fig-label">R.Figure 3:</span> Qualitative Examples with different amounts ($10, 30, 50, 75 \%$) of unreliable user preference input to <b>MultiBO</b> (B=50). For prompts: <i>"A person in a suit holding a sword.", "A forest with blue flowers illustrated in a digital matte style by Dan Mumford and M.W Kaluta.", 
         "A swirling, multicolored portal emerges from the depths of an ocean of coffee, with waves of the rich liquid gently rippling outward. The portal engulfs a coffee cup, which serves as a gateway to a fantastical dimension. The surrounding digital art landscape reflects the colors of the portal, 
         creating an alluring scene of endless possibilities.","an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital art with pixelated elements, bringing a modern, 
         educational twist to atomic structure visualization.", "The fragrant flowers bloomed on the sturdy stem and the thorny bush.", "A girl is holding a large kite on a grassy field.", "a tidal wave approaching a coastal road", "a dog and a frog".</i></figcaption>
@@ -242,31 +251,33 @@ window.MathJax = {
     <h3>4. Randomizations</h3>
     <figure>
       <img src="assets/image_multibo_start_v2.png" alt="Figure 4">
-      <figcaption><span class="fig-label">Figure 4:</span> Qualitative Examples for different starts $x_0$ and same target $x^*$. For prompts: <i>"an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital 
+      <figcaption><span class="fig-label">R.Figure 4:</span> Qualitative Examples for different starts $x_0$ and same target $x^*$. For prompts: <i>"an electron cloud model is displayed in vibrant colors with a light spectrum background, showcasing the probability distribution of electrons around the nucleus. the image resembles digital 
         art with pixelated elements, bringing a modern, educational twist to atomic structure visualization.","The smooth, cool surface of the river rocks were perfect for skipping across the water's surface."</i></figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_end_v2.png" alt="Figure 5">
-      <figcaption><span class="fig-label">Figure 5:</span> Qualitative Examples for same start $x_0$ and different targets $x^*$:. For prompts: <i>"A wolf wearing a sheep halloween costume going trick-or-treating at the farm", "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape. 
+      <figcaption><span class="fig-label">R.Figure 5:</span> Qualitative Examples for same start $x_0$ and different targets $x^*$:. For prompts: <i>"A wolf wearing a sheep halloween costume going trick-or-treating at the farm", "a stunning 3d render of towering, giant blooming plants with vibrant, colorful flowers on a picturesque mountain landscape. 
         sunlight dances on the petals, creating an enchanting scene as the wind gently sways the plants, with snow-capped peaks in the distance."</i></figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_BO_seed_runs_iters_v1.png" alt="Figure 6">
-      <figcaption><span class="fig-label">Figure 6:</span> Qualitative Examples for same start $x_0$ and same target $x^*$ for two <b>MultiBO</b> runs with different optimization seeds. For prompts: <i>"a tidal wave approaching a coastal road", "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", "The fragrant 
+      <figcaption><span class="fig-label">R.Figure 6:</span> Qualitative Examples for same start $x_0$ and same target $x^*$ for two <b>MultiBO</b> runs with different optimization seeds. For prompts: <i>"a tidal wave approaching a coastal road", "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.", "The fragrant 
         flowers bloomed on the sturdy stem and the thorny bush."</i></figcaption>
     </figure>
     
     <br><br>
     <h3>5. Performance for Far-away Starts</h3>
     <figure>
-      <img src="assets/table_far.png" alt="Table 4">
+      <img src="assets/table_far_v3.png" alt="Table 4">
+      <figcaption><span class="fig-label">R.Table 4:</span>Quantitave metrics LPIPS and CLIP-I computed between target \(x^*\) and starting point \(x_0\), results \(\hat{x}^*\) after B=50, and B=65 
+        iterations respectively of <b>MultiBO</b>, and baselines: <b>MultiBO</b>_&lt;LPIPS&gt; and DEMON \textit{choose generate}.</figcaption>
     </figure>
     <br>
     <figure>
       <img src="assets/image_multibo_far_start_iters_v3.png" alt="Figure 7">
-      <figcaption><span class="fig-label">Figure 7:</span> Qualitative Examples of <b>MultiBO</b> for far away starting images $x_0$ (missing objects, wrong colors, etc.). For prompts: <i>"a bird and a mouse", "The fragrant flowers bloomed on the sturdy stem and the thorny bush.", "a monkey and a frog", "A cyberpunk woman on a motorbike drives away down 
+      <figcaption><span class="fig-label">R.Figure 7:</span> Qualitative Examples of <b>MultiBO</b> for far away starting images \(x_0\) (missing objects, wrong colors, etc.). For prompts: <i>"a bird and a mouse", "The fragrant flowers bloomed on the sturdy stem and the thorny bush.", "a monkey and a frog", "A cyberpunk woman on a motorbike drives away down 
         a street while wearing sunglasses.", "a elephant with a bow".</i></figcaption>
     </figure>
 
@@ -274,7 +285,7 @@ window.MathJax = {
     <h3>6. Attention Warping Artifacts</h3>
     <figure>
       <img src="assets/image_multibo_artifacts_v1.png" alt="Figure 8">
-      <figcaption><span class="fig-label">Figure 8:</span> A few Examples of Attention Warping artifacts.</figcaption>
+      <figcaption><span class="fig-label">R.Figure 8:</span> A few Examples of Attention Warping artifacts.</figcaption>
     </figure>
     
     <br><br>
